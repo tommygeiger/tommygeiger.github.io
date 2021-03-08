@@ -1,2 +1,2 @@
 # tommygeiger.github.io
-Portfolio website / blog
+Portfolio website / gingerline blog
