@@ -11,6 +11,9 @@ html, body {
     height: 100%;
     font-size: 18px;
 }
+a {
+    text-decoration: none;
+}
 
 .color-primary {
     background-color: var(--light);
@@ -69,7 +72,7 @@ html, body {
     content: "";
     height: 20px;
     width: 20px;
-    left: 4px;
+    left: 5px;
     bottom: 4px;
     background-color: var(--lightaccent);
     -webkit-transition: .2s;
@@ -85,8 +88,7 @@ input:checked + .slider:before  {
     background-color: var(--darkaccent);
     -webkit-transition: .2s;
     transition: .2s;
-    -webkit-transform: translateX(22px);
-    -ms-transform: translateX(22px);
-    transform: translateX(22px);
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
 }
-  
