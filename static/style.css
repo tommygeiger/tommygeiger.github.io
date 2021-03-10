@@ -38,13 +38,13 @@ footer {
 .splash1 {
     position: fixed;
     z-index: -1;
-    width: 500px;
-    height: 50px;
-    top: 200px;
-    left: -250px;
-    transform: rotateZ(-50deg);
+    width: 125px;
+    height: 125px;
+    top: 25px;
+    left: -50px;
+    transform: rotateZ(-5deg);
     background-color: lightblue;
-    border-radius: 50px;
+    border-radius: 100px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 
 }
@@ -52,13 +52,26 @@ footer {
 .splash2 {
     position: fixed;
     z-index: -1;
-    width: 400px;
-    height: 75px;
-    top: 50px;
+    width: 100px;
+    height: 100px;
+    top: -10px;
+    right: 100px;
+    transform: rotateZ(-15deg);
+    background-color: darkseagreen;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+.splash3 {
+    position: fixed;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    top: -10px;
     right: -100px;
-    transform: rotateZ(-100deg);
-    background-color: salmon;
-    border-radius: 50px;
+    transform: rotateZ(-115deg);
+    background-color: lightpink;
+    border-radius: 100px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 
 }
@@ -153,6 +166,5 @@ input:checked + .slider:before  {
 }
 .btn-special:hover {
     color: var(--color);
-    box-shadow: 0px 0px;
-    
+    box-shadow: 0px 0px;    
 }
