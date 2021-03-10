@@ -1,18 +1,33 @@
 :root {
-    --light: rgb(204, 204, 204);
-    --lightaccent: rgb(197, 197, 197);
+    --light: rgb(240, 244, 252);
+    --lightaccent: rgb(233, 237, 243);
     --dark: rgb(40, 44, 52);
     --darkaccent: rgb(33, 37, 43);
-    --gingerline: rgb(251, 203, 89);
+    --color: rgb(251, 203, 89);
 }
 
+
 html, body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Raleway', sans-serif;
     height: 100%;
     font-size: 18px;
 }
 a {
     text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.96;
+}
+
+.btn {
+    background-color: var(--color);
 }
 
 .color-primary {
@@ -92,3 +107,36 @@ input:checked + .slider:before  {
     -ms-transform: translateX(21px);
     transform: translateX(21px);
 }
+
+.btn-special{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 10pt;
+    border: 4px solid var(--color);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+    background-color: transparent;
+    transition: .2s all ease;
+}
+.btn-special:hover {
+    box-shadow: 8px 8px var(--color);
+    color: var(--color);
+}
+  /* .btn-special::before{
+    background: var(--color);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.5s ease;
+    width: 0%;
+    height: 0%;
+  }
+  .btn-special:hover::before{
+    width: 100%;
+    height: 100%;
+  } */
