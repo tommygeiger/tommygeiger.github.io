@@ -1,5 +1,8 @@
 window.onload = onPageLoad();
 function onPageLoad() {
+    // Save primary and accent elements to global vars
+    window.primaries = document.getElementsByClassName("color-primary");
+    window.accents = document.getElementsByClassName("color-accent");
 
     if (localStorage.getItem("darkmode") == null)
         localStorage.setItem("darkmode", "false");
@@ -11,7 +14,6 @@ function onPageLoad() {
 }
 
 function onDarkModeSwitch() {
-
     if (localStorage.getItem("darkmode") == "false")
         localStorage.setItem("darkmode", "true");
     else
@@ -21,13 +23,9 @@ function onDarkModeSwitch() {
 }
 
 function toggleDarkMode() {
+    for (var i = 0; i < window.primaries.length; i++)
+        window.primaries[i].classList.toggle("dark-mode-primary");
 
-    var primaries = document.getElementsByClassName("color-primary");
-    var accents = document.getElementsByClassName("color-accent");
-
-    for (var i = 0; i < primaries.length; i++)
-        primaries[i].classList.toggle("dark-mode-primary");
-
-    for (var i = 0; i < accents.length; i++)
-        accents[i].classList.toggle("dark-mode-accent");
+    for (var i = 0; i < window.accents.length; i++)
+        window.accents[i].classList.toggle("dark-mode-accent");
 }
