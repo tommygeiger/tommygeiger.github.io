@@ -1,5 +1,5 @@
 # tommygeiger.github.com
 
-Portfolio website + blog
+Personal portfolio website
 
  ### [tommygeiger.com](http://tommygeiger.com)
