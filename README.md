@@ -1,5 +1,5 @@
-# tommygeiger.github.com
+# [tommygeiger.com](http://tommygeiger.com)
 
-Personal portfolio website
+Portfolio website built with Bootstrap and a sprinkle of JS
 
- ### [tommygeiger.com](http://tommygeiger.com)
+
