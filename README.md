@@ -1,5 +1,5 @@
 # [tommygeiger.com](http://tommygeiger.com)
 
-Portfolio website built with Bootstrap and a sprinkle of JS
+Portfolio website built with Bootstrap and a JS enable dark-mode
 
 
