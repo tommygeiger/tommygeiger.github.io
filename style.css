@@ -84,42 +84,6 @@ footer {
 }
 
 
-.splash1 {
-    position: fixed;
-    z-index: -1;
-    width: 125px;
-    height: 125px;
-    top: 25px;
-    left: -50px;
-    background-color: lightblue;
-    border-radius: 100px;
-    box-shadow: rgba(0, 0, 0, 0.05) -10px -10px 10px inset, rgba(0, 0, 0, 0.05) 5px 5px 10px inset, rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-
-}
-.splash2 {
-    position: fixed;
-    z-index: -1;
-    width: 100px;
-    height: 100px;
-    top: -10px;
-    right: 100px;
-    background-color: darkseagreen;
-    border-radius: 100px;
-    box-shadow: rgba(0, 0, 0, 0.05) -10px -10px 10px inset, rgba(0, 0, 0, 0.05) 5px 5px 10px inset, rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-}
-.splash3 {
-    position: fixed;
-    z-index: -1;
-    width: 150px;
-    height: 150px;
-    top: 50px;
-    right: -75px;
-    background-color: lightpink;
-    border-radius: 100px;
-    box-shadow: rgba(0, 0, 0, 0.05) -10px -10px 10px inset, rgba(0, 0, 0, 0.05) 5px 5px 10px inset, rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
-
 .color-primary {
     background-color: var(--light);
     color: var(--dark);
