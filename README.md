@@ -1,5 +1,5 @@
 # [tommygeiger.com](http://tommygeiger.com)
 
-Portfolio website built with Bootstrap
+Static portfolio website designed using Bootstrap
 
 
