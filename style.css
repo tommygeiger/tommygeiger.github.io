@@ -1,6 +1,5 @@
 :root {
-    --primary: rgb(240, 240, 240);
-    --accent: rgb(244, 244, 244);
+    --primary: whitesmoke;
     --text: rgb(33, 37, 43);
     --color: rgb(251, 203, 89);
 }
@@ -66,10 +65,6 @@ a:hover{
     background-color: var(--primary);
     color: var(--text);
 }
-.color-accent {
-    background-color: var(--accent);
-    color: var(--text);
-}
 
 
 .modal {
@@ -83,6 +78,5 @@ a:hover{
 
 .album {
     position: relative;
-    background: var(--primary);
     z-index: 10;
 }
