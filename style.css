@@ -1,8 +1,7 @@
 :root {
-    --light: rgb(240, 244, 252);
-    --lightaccent: rgb(233, 237, 243);
-    --dark: rgb(40, 44, 52);
-    --darkaccent: rgb(33, 37, 43);
+    --primary: rgb(233, 233, 233);
+    --accent: rgb(240, 240, 240);
+    --text: rgb(33, 37, 43);
     --color: rgb(251, 203, 89);
 }
 
@@ -19,12 +18,6 @@ a {
 a:hover{
     color: inherit;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    opacity: 0.95;
-}
 
 
 .carousel-control-prev-icon {
@@ -35,21 +28,6 @@ footer {
 }
 
 
-.btn-big {
-    font-size: .7em;
-    border: 3px solid var(--color);
-    text-transform: uppercase;
-    background-color: transparent;
-    transition: .2s all ease;
-    border-radius: 8px;
-    box-shadow: 2px 2px var(--color), 1px 1px 4px rgba(0, 0, 0, 0.25);
-    color: inherit;
-    padding: 10px 40px;
-}
-.btn-big:hover {
-    color: var(--color);
-    box-shadow: 0px 0px;
-}
 .btn-small {
     cursor: pointer;
     transition: .2s all ease;
@@ -85,82 +63,12 @@ footer {
 
 
 .color-primary {
-    background-color: var(--light);
-    color: var(--dark);
-    -webkit-transition: .5s;
-    transition: .5s;
-    transition-timing-function: ease-out;
+    background-color: var(--primary);
+    color: var(--text);
 }
 .color-accent {
-    background-color: var(--lightaccent);
-    color: var(--dark);
-    -webkit-transition: .5s;
-    transition: .5s;
-    transition-timing-function: ease-out;
-}
-.dark-mode-primary {
-    background-color: var(--dark);
-    color: var(--light);
-    -webkit-transition: .5s;
-    transition: .5s;
-    transition-timing-function: ease-out;
-}
-.dark-mode-accent {
-    background-color: var(--darkaccent);
-    color: var(--light);
-    -webkit-transition: .5s;
-    transition: .5s;
-    transition-timing-function: ease-out;
-}
-
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 28px;
-}
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--darkaccent);
-    -webkit-transition: .2s;
-    transition: .2s;
-    border-radius: 28px;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 5px;
-    bottom: 4px;
-    background-color: var(--lightaccent);
-    -webkit-transition: .2s;
-    transition: .2s;
-    border-radius: 50%;
-}
-input:checked + .slider  {
-    background-color: var(--lightaccent);
-    -webkit-transition: .2s;
-    transition: .2s;
-}
-input:checked + .slider:before  {
-    background-color: var(--darkaccent);
-    -webkit-transition: .2s;
-    transition: .2s;
-    -webkit-transform: translateX(21px);
-    -ms-transform: translateX(21px);
-    transform: translateX(21px);
+    background-color: var(--accent);
+    color: var(--text);
 }
 
 
@@ -170,4 +78,11 @@ input:checked + .slider:before  {
 .modal-open {
     overflow: auto;
     padding-right: 0px !important;
+}
+
+
+.album {
+    position: relative;
+    background: var(--primary);
+    z-index: 10;
 }
