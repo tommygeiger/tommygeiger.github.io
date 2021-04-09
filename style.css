@@ -74,9 +74,3 @@ a:hover{
     overflow: auto;
     padding-right: 0px !important;
 }
-
-
-.album {
-    position: relative;
-    z-index: 10;
-}
