@@ -1,4 +1,10 @@
- .bd-placeholder-img {
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
